@@ -3,7 +3,6 @@ from unittest.mock import patch, Mock
 from jsonplaceholder.client import JsonPlaceholder
 import requests
 
-
 class TestJsonPlaceholder:
     @pytest.fixture
     def api_client(self):
