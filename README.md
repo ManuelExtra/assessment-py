@@ -15,7 +15,7 @@ A Python client for interacting with the JSONPlaceholder API.
 2. Create virtual environment: `python -m venv venv`
 3. Activate environment: `source venv/bin/activate` (mac) or `.\venv\Scripts\Activate.ps1` (windows)
 4. Install dependencies: `pip install -r requirements.txt`
-5. Run test: `python tests/test_client.py`
+5. Run test: `pytest tests/test_client.py`
 6. Run app: `python main.py`
 
 ## Usage
